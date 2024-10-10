@@ -22,6 +22,20 @@ public class IkaOhjelma {
         } 
         else if (ika >= 65) {
             System.out.println("Olet eläikeläinen");
+            if (ika == 70) {
+                System.out.println("Hyvää seitsemänkymppistä");
+            }
+            if (ika == 80) {
+                System.out.println("Hyvää kahdeksankymppistä");
+            }
+            if (ika == 90) {
+                System.out.println("Hyvää yhdeksänkymppistä");
+            }
+            if (ika == 100) {
+                System.out.println("Hyvää");
+                System.out.println("Sataa");
+                System.out.println("Vuotta");
+            }
         } 
         else {
             System.out.println("Olet aikuinen");
@@ -39,15 +53,6 @@ public class IkaOhjelma {
             }
             if (ika == 60) {
                 System.out.println("Hyvää kuusikymppistä");
-            }
-            if (ika == 70) {
-                System.out.println("Hyvää seitsemänkymppistä");
-            }
-            if (ika == 80) {
-                System.out.println("Hyvää kahdeksankymppistä");
-            }
-            if (ika == 90) {
-                System.out.println("Hyvää yhdeksänkymppistä");
             }
         }
 
