@@ -16,12 +16,39 @@ public class IkaOhjelma {
             if (ika >= 16) {
                 System.out.println("Saat ajaa kevarilla");
             }
-        } else if (ika == 18) {
+        } 
+        else if (ika == 18) {
             System.out.println("Olet täysi-ikäinen ja saat ajaa autoa");
-        } else if (ika >= 65) {
+        } 
+        else if (ika >= 65) {
             System.out.println("Olet eläikeläinen");
-        } else {
+        } 
+        else {
             System.out.println("Olet aikuinen");
+            if (ika == 20) {
+                System.out.println("Hyvää parikymppistä");
+            }
+            if (ika == 30) {
+                System.out.println("Hyvää kolmekymppistä");
+            }
+            if (ika == 40) {
+                System.out.println("Hyvää nelikymppistä");
+            }
+            if (ika == 50) {
+                System.out.println("Hyvää viisikymppistä");
+            }
+            if (ika == 60) {
+                System.out.println("Hyvää kuusikymppistä");
+            }
+            if (ika == 70) {
+                System.out.println("Hyvää seitsemänkymppistä");
+            }
+            if (ika == 80) {
+                System.out.println("Hyvää kahdeksankymppistä");
+            }
+            if (ika == 90) {
+                System.out.println("Hyvää yhdeksänkymppistä");
+            }
         }
 
         scanner.close();
