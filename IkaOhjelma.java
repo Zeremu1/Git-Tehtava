@@ -10,6 +10,12 @@ public class IkaOhjelma {
 
         if (ika >= 0 && ika < 18) {
             System.out.println("Olet alaikäinen");
+            if (ika >= 15) {
+                System.out.println("Saat ajaa mopolla");
+            }
+            if (ika >= 16) {
+                System.out.println("Saat ajaa kevarilla");
+            }
         } else if (ika >= 65) {
             System.out.println("Olet eläikeläinen");
         } else {
