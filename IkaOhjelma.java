@@ -51,6 +51,9 @@ public class IkaOhjelma {
             if (ika == 50) {
                 System.out.println("Hyvää viisikymppistä");
             }
+            if (ika >= 58) {
+                System.out.println("Voit mennä varhaiseläkkeelle");
+            }
             if (ika == 60) {
                 System.out.println("Hyvää kuusikymppistä");
             }
