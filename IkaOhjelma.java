@@ -21,7 +21,10 @@ public class IkaOhjelma {
             System.out.println("Olet täysi-ikäinen ja saat ajaa autoa");
         } 
         else if (ika >= 65) {
-            System.out.println("Olet eläikeläinen");
+            System.out.println("Olet eläkeläinen");
+            if (ika == 65) {
+                System.out.println("Hyvää eläkettä");
+            }
             if (ika == 70) {
                 System.out.println("Hyvää seitsemänkymppistä");
             }
